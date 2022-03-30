@@ -1,6 +1,7 @@
 import Head from "next/head";
 import { Flex, Icon, HStack, Text, VStack, Input, Button, Box } from "@chakra-ui/react";
 import { BiCalendar, BiCheckCircle } from 'react-icons/bi';
+import { CardClass } from "../components/CardClass";
 
 export default function Home() {
   return (
@@ -14,8 +15,8 @@ export default function Home() {
         p="6"
         align="flex-start"
         justify="center"
-        borderWidth={1}
-        borderColor="#000"
+      // borderWidth={1}
+      // borderColor="#000"
       >
         <VStack align="flex-start" justify="center" spacing="5" pl="14">
           <Text fontWeight="bold" fontSize="1.7rem" color="white" lineHeight="1">
@@ -79,18 +80,102 @@ export default function Home() {
         p="6"
         align="flex-end"
         justify="center"
-        borderWidth={1}
-        borderColor="#000"
+      // borderWidth={1}
+      // borderColor="#000"
       >
-        <VStack align="flex-start" justify="center" spacing="5" pr="32">
+        <VStack w="51rem" align="flex-start" justify="center" spacing="7" pr="52">
           <Text fontWeight="bold" fontSize="1.7rem" color="white" lineHeight="1">
             Você é poderosa, SIM! E esse <br />
             evento vai te provar.
           </Text>
-          <Text fontWeight="600" fontSize="0.9rem" color="white">
-            Texto
+          <Text fontWeight="400" fontSize="0.9rem" color="white">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Eum doloribus accusantium ad eveniet dolores ullam laboriosam,
+            perferendis mollitia unde dolorem aperiam est rem ducimus incidunt
+            voluptatibus. Quae sed perspiciatis rem!
+            <br />
+            <br />
+            Velit atque autem, ab corporis odio tenetur voluptatem nesciunt nulla pariatur necessitatibus hic accusantium laboriosam ratione delectus eaque beatae illo ducimus sunt? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis totam placeat cumque fuga recusandae, blanditiis itaque aliquid libero quibusdam esse tempora consequuntur alias aspernatur, numquam facere id laboriosam dolorum qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat libero natus quidem recusandae quis ab, inventore dolorum voluptatem harum iusto modi delectus ducimus ex animi. Ex vitae tempora et fugit?
+
+            <br />
+            <br />
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi dolorem non, voluptatibus soluta dolore facilis? Distinctio saepe sed quidem pariatur quaerat eius at. Itaque hic deserunt excepturi vitae, perspiciatis alias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nulla animi at, libero eligendi assumenda adipisci omnis, quia laudantium quisquam minima in itaque a doloribus nesciunt dolorum vero ad eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti fugiat nobis amet iure harum reiciendis dolore omnis cumque tenetur at. Placeat incidunt explicabo repellendus voluptatem dolorum exercitationem nobis aliquid quis!
           </Text>
         </VStack>
+      </Flex>
+      <Flex
+        bg="purple.900"
+        w="100vw"
+        minH="100vh"
+        direction="column"
+        p="6"
+        align="center"
+        justify="flex-start"
+      // borderWidth={1}
+      // borderColor="#000"
+      >
+        <Text fontWeight="bold" fontSize="1.7rem" color="white" lineHeight="1" mt="10">
+          O Que Você Aprenderá no Evento:
+        </Text>
+        <HStack
+          w="auto"
+          h="auto"
+          align="center"
+          justify="space-between"
+          flexWrap="wrap"
+          spacing="28"
+          mt="7"
+        >
+          <CardClass />
+          <CardClass />
+        </HStack>
+        <HStack
+          w="auto"
+          h="auto"
+          align="center"
+          justify="space-between"
+          flexWrap="wrap"
+          spacing="28"
+          mt="7"
+        >
+          <CardClass />
+          <CardClass />
+        </HStack>
+      </Flex>
+      <Flex
+        bg="purple.900"
+        w="100vw"
+        minH="100vh"
+        direction="column"
+        p="6"
+        align="center"
+        justify="flex-start"
+      // borderWidth={1}
+      // borderColor="#000"
+      >
+        <Text fontWeight="bold" fontSize="1.5rem" color="white" lineHeight="1" mt="16" textAlign="center">
+          Prazer... <strong> EU SOU KELLY KRIS,</strong> serei <strong> SUA MENTORA</strong> e te
+          <br />
+          transformarei num VERDADEIRO DIAMANTE!
+        </Text>
+        <HStack w="100%" justify="flex-end" pr="44">
+          <Text w="50%" fontWeight="400" fontSize="0.9rem" color="white" mt="16">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit.
+            Eum doloribus accusantium ad eveniet dolores ullam laboriosam,
+            perferendis mollitia unde dolorem aperiam est rem ducimus incidunt
+            voluptatibus. Quae sed perspiciatis rem!
+            <br />
+            <br />
+            Velit atque autem, ab corporis odio tenetur voluptatem nesciunt nulla pariatur necessitatibus hic accusantium laboriosam ratione delectus eaque beatae illo ducimus sunt? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis totam placeat cumque fuga recusandae, blanditiis itaque aliquid libero quibusdam esse tempora consequuntur alias aspernatur, numquam facere id laboriosam dolorum qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat libero natus quidem recusandae quis ab, inventore dolorum voluptatem harum iusto modi delectus ducimus ex animi. Ex vitae tempora et fugit?
+
+            <br />
+            <br />
+            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi dolorem non, voluptatibus soluta dolore facilis? Distinctio saepe sed quidem pariatur quaerat eius at. Itaque hic deserunt excepturi vitae, perspiciatis alias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nulla animi at, libero eligendi assumenda adipisci omnis, quia laudantium quisquam minima in itaque a doloribus nesciunt dolorum vero ad eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti fugiat nobis amet iure harum reiciendis dolore omnis cumque tenetur at. Placeat incidunt explicabo repellendus voluptatem dolorum exercitationem nobis aliquid quis!
+          </Text>
+        </HStack>
+        <Button w="30rem" mt="12" color="white" bg="pink.600" fontSize="sm">
+          QUERO ME INSCREVER AGORA
+        </Button>
       </Flex>
     </>
   );

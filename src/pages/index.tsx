@@ -9,15 +9,16 @@ export default function Home() {
     <>
       <Head><title>Landing Page</title></Head>
       <Flex
-        bg="purple.900"
+        // bg="purple.900"
         w="100vw"
         h="100vh"
+        bgImage="/images/background.png"
         direction="column"
         p="6"
         align="flex-start"
         justify="center"
-      // borderWidth={1}
-      // borderColor="#000"
+        borderWidth={1}
+        borderColor="#000"
       >
         <VStack align="flex-start" justify="center" spacing="5" pl="14">
           <Text fontWeight="bold" fontSize="1.7rem" color="white" lineHeight="1">

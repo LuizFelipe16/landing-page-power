@@ -21,3 +21,13 @@ body {
 strong {
   color: var(--pink-600);
 }
+
+::-webkit-scrollbar {
+  width: 9px;
+  background: var(--purple-900);
+}
+
+::-webkit-scrollbar-thumb {
+  background: var(--pink-600);
+  border-radius: 2rem;
+}

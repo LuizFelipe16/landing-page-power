@@ -2,6 +2,7 @@ import Head from "next/head";
 import { Flex, Icon, HStack, Text, VStack, Input, Button, Box } from "@chakra-ui/react";
 import { BiCalendar, BiCheckCircle } from 'react-icons/bi';
 import { CardClass } from "../components/CardClass";
+import { Footer } from "../components/Footer";
 
 export default function Home() {
   return (
@@ -160,17 +161,35 @@ export default function Home() {
         </Text>
         <HStack w="100%" justify="flex-end" pr="44">
           <Text w="50%" fontWeight="400" fontSize="0.9rem" color="white" mt="16">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Eum doloribus accusantium ad eveniet dolores ullam laboriosam,
-            perferendis mollitia unde dolorem aperiam est rem ducimus incidunt
-            voluptatibus. Quae sed perspiciatis rem!
+            Oi, poderosa! Deixa eu te contar um pouco da minha trajetória e como eu posso te ajudar aqui no online.
             <br />
             <br />
-            Velit atque autem, ab corporis odio tenetur voluptatem nesciunt nulla pariatur necessitatibus hic accusantium laboriosam ratione delectus eaque beatae illo ducimus sunt? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis totam placeat cumque fuga recusandae, blanditiis itaque aliquid libero quibusdam esse tempora consequuntur alias aspernatur, numquam facere id laboriosam dolorum qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat libero natus quidem recusandae quis ab, inventore dolorum voluptatem harum iusto modi delectus ducimus ex animi. Ex vitae tempora et fugit?
-
+            Sou Palestrante, Mentora e Estrategista de Marketing para Redes Sociais, Marketing de
+            Influência e de Conteúdo. E, claro... apaixonada por Desenvolvimento Humano, pelo SEU
+            desenvolvimento.
             <br />
             <br />
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi dolorem non, voluptatibus soluta dolore facilis? Distinctio saepe sed quidem pariatur quaerat eius at. Itaque hic deserunt excepturi vitae, perspiciatis alias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nulla animi at, libero eligendi assumenda adipisci omnis, quia laudantium quisquam minima in itaque a doloribus nesciunt dolorum vero ad eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti fugiat nobis amet iure harum reiciendis dolore omnis cumque tenetur at. Placeat incidunt explicabo repellendus voluptatem dolorum exercitationem nobis aliquid quis!
+            Uso a influência aliada ao marketing digital para crescer negócios já mais de 6
+            anos em treinamentos indivíduais e de equipes, palestras e mentorias.
+            <br />
+            <br />
+            Já transformei mais de 5.000 VIDAS e lapidei verdadeiros diamantes que se destacam
+            profissionalmente nas redes sociais, de maneira muito eficaz, clara e assertiva.
+            <br />
+            <br />
+            Deixa eu te contar o segredo, como eu faço isso? Eu ensino o jeito certo de criar
+            presença, relevâncoa, possionamento e reconhecimento como autoridades nas mídias
+            sociais, tudo isso usando estratégias do digital.
+            <br />
+            <br />
+            Isso é tão poderoso, mas tão poderoso... que eu criei métodos que unem técnicas do
+            Marketing de Influ~encia, Conteúdo e Pessoal, para VOCÊ que deseja PRESENÇA,
+            POSICIONAMENTO, RELEVÂNCIA, AUTORIDADE e ENGAJAMENTO no mar de estrelas do digital.
+            <br />
+            <br />
+            Sabe poderosa?! Eu me especializei em destravar duversis talentos, aqui no digital,
+            e agora crei esse evento especial ONLINE e GRATUTITO, pois quero que você aprenda
+            e ilumine todos seus super poderes. Vamos juntas?
           </Text>
         </HStack>
         <Button
@@ -188,6 +207,7 @@ export default function Home() {
           QUERO ME INSCREVER AGORA
         </Button>
       </Flex>
+      <Footer />
     </>
   );
 }

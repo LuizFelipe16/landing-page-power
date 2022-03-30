@@ -200,6 +200,8 @@ export default function Home() {
           color="white"
           bg="pink.600"
           fontSize="sm"
+          boxShadow="0 0 50px #E21F7E"
+          transition="0.2s"
           _hover={{
             bg: 'pink.600'
           }}

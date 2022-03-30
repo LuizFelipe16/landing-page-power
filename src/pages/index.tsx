@@ -173,7 +173,18 @@ export default function Home() {
             Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi dolorem non, voluptatibus soluta dolore facilis? Distinctio saepe sed quidem pariatur quaerat eius at. Itaque hic deserunt excepturi vitae, perspiciatis alias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nulla animi at, libero eligendi assumenda adipisci omnis, quia laudantium quisquam minima in itaque a doloribus nesciunt dolorum vero ad eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti fugiat nobis amet iure harum reiciendis dolore omnis cumque tenetur at. Placeat incidunt explicabo repellendus voluptatem dolorum exercitationem nobis aliquid quis!
           </Text>
         </HStack>
-        <Button w="30rem" mt="12" color="white" bg="pink.600" fontSize="sm">
+        <Button
+          w="30rem"
+          py="7"
+          mt="12"
+          mb="8"
+          color="white"
+          bg="pink.600"
+          fontSize="sm"
+          _hover={{
+            bg: 'pink.600'
+          }}
+        >
           QUERO ME INSCREVER AGORA
         </Button>
       </Flex>

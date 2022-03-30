@@ -84,23 +84,31 @@ export default function Home() {
       // borderWidth={1}
       // borderColor="#000"
       >
-        <VStack w="51rem" align="flex-start" justify="center" spacing="7" pr="52">
+        <VStack w="auto" align="flex-start" justify="center" spacing="7" pr="44">
           <Text fontWeight="bold" fontSize="1.7rem" color="white" lineHeight="1">
             Você é poderosa, SIM! E esse <br />
             evento vai te provar.
           </Text>
           <Text fontWeight="400" fontSize="0.9rem" color="white">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Eum doloribus accusantium ad eveniet dolores ullam laboriosam,
-            perferendis mollitia unde dolorem aperiam est rem ducimus incidunt
-            voluptatibus. Quae sed perspiciatis rem!
+            A impostora está dentro de cada mulher e ela sempre vai te <br /> sabotar e te bloquear.
             <br />
             <br />
-            Velit atque autem, ab corporis odio tenetur voluptatem nesciunt nulla pariatur necessitatibus hic accusantium laboriosam ratione delectus eaque beatae illo ducimus sunt? Lorem, ipsum dolor sit amet consectetur adipisicing elit. Omnis totam placeat cumque fuga recusandae, blanditiis itaque aliquid libero quibusdam esse tempora consequuntur alias aspernatur, numquam facere id laboriosam dolorum qui! Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat libero natus quidem recusandae quis ab, inventore dolorum voluptatem harum iusto modi delectus ducimus ex animi. Ex vitae tempora et fugit?
-
+            Em cada segundo que você acredita nessa vilã, porque te disseram <br />
+            que você não pode te criticarem dizendo que o Instagram não é <br />
+            seu lugar ou deram apelidinhos como "blogueirinha", você... isso <br />
+            mesmo... VOCÊ perde seus poderes pessoais.
             <br />
             <br />
-            Lorem ipsum dolor, sit amet consectetur adipisicing elit. Commodi dolorem non, voluptatibus soluta dolore facilis? Distinctio saepe sed quidem pariatur quaerat eius at. Itaque hic deserunt excepturi vitae, perspiciatis alias. Lorem ipsum dolor sit amet consectetur, adipisicing elit. Sed nulla animi at, libero eligendi assumenda adipisci omnis, quia laudantium quisquam minima in itaque a doloribus nesciunt dolorum vero ad eaque? Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti fugiat nobis amet iure harum reiciendis dolore omnis cumque tenetur at. Placeat incidunt explicabo repellendus voluptatem dolorum exercitationem nobis aliquid quis!
+            Esse evento foi criado para você derrotar a impostora e outras <br />
+            vilãs (a auto sabotadora, a sem criatividade, a vergonhosa, a <br />
+            negativista, a procrastinadora, a que tem todas as informações e <br />
+            não sai do lugar) e, claro! Destravar os seus super poderes no <br />
+            digital.
+            <br />
+            <br />
+            Após 4 aulas, você se sentirá livre e corajosa com o plano <br />
+            estratégico desenhado para ter PRESENÇA, POSICIONAMENTO <br />
+            RELEVÂNCIA, AUTORIDADE e ENGAJAMENTO no universo digital.
           </Text>
         </VStack>
       </Flex>
@@ -127,8 +135,19 @@ export default function Home() {
           spacing="28"
           mt="7"
         >
-          <CardClass />
-          <CardClass />
+          <CardClass
+            date="08 de fevereiro às 20h"
+            title="A Descoberta das Vilãs do Mundo Digital"
+            text="que te enfraquecem e bloqueiam seus poderes de ação"
+            border="pink.600"
+          />
+          <CardClass
+            date="09 de fevereiro às 20h"
+            title="A Chave que Abrirá as Portas Certas"
+            text="e te revelará seus poderes e talentos únicos e que precisam ser conhecidos 
+            no Mundo online."
+            border="purple.400"
+          />
         </HStack>
         <HStack
           w="auto"
@@ -139,8 +158,21 @@ export default function Home() {
           spacing="28"
           mt="7"
         >
-          <CardClass />
-          <CardClass />
+          <CardClass
+            date="10 de fevereiro às 20h"
+            title="As Técnicas Perfeitas que Derrotam as Vilãs do Digital"
+            text="que aumentarão seus super poderes e de darão força e coragem 
+            para agir de maneira eficaz e assertiva."
+            border="purple.400"
+          />
+          <CardClass
+            date="11 de fevereiro às 20h"
+            title="O Plano Estratégico Definitivo"
+            text="que revelará os segredos do Instagram, 
+            destravará seus poderes de forma permanente portencializará seus talentos no online e 
+            escalará suas conquistas tanto na vidade real como no digital."
+            border="pink.600"
+          />
         </HStack>
       </Flex>
       <Flex
@@ -154,7 +186,7 @@ export default function Home() {
       // borderWidth={1}
       // borderColor="#000"
       >
-        <Text fontWeight="bold" fontSize="1.5rem" color="white" lineHeight="1" mt="16" textAlign="center">
+        <Text fontWeight="bold" fontSize="1.5rem" color="white" lineHeight="1" mt="24" textAlign="center">
           Prazer... <strong> EU SOU KELLY KRIS,</strong> serei <strong> SUA MENTORA</strong> e te
           <br />
           transformarei num VERDADEIRO DIAMANTE!
@@ -196,7 +228,7 @@ export default function Home() {
           w="30rem"
           py="7"
           mt="12"
-          mb="8"
+          mb="12"
           color="white"
           bg="pink.600"
           fontSize="sm"

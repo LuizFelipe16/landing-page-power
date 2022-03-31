@@ -148,7 +148,7 @@ export default function Landing() {
           fontSize="1.7rem"
           color="white"
           mt="10"
-          textAlign={["center", "right", "right"]}
+          textAlign={["center", "left", "left"]}
         >
           O Que Você Aprenderá no Evento:
         </Text>

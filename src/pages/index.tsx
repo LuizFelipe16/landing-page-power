@@ -15,20 +15,22 @@ export default function Landing() {
         w="100vw"
         minH="100vh"
         bg="purple.900"
-        bgImage={["/images/1.png", ""]}
+        bgImage={["", "", "/images/1.png"]}
         bgRepeat="no-repeat"
         direction="column"
-        align={["flex-start", "center"]}
+        align={["center", "center", "flex-start"]}
         justify="center"
         p="6"
       >
         <VStack
-          data-aos="zoom-in-right"
-          data-aos-duration="1000"
-          align="flex-start"
+          // data-aos="zoom-in-right"
+          // data-aos-duration="1000"
+          align={["flex-start", "flex-start", "flex-start"]}
           justify="center"
           spacing="5"
-          pl={["14", "1"]}
+          pl={["1", "1", "14"]}
+          mt={["10", "", ""]}
+          mb={["10", "", ""]}
         >
           <Text fontWeight="bold" fontSize="1.7rem" color="white" lineHeight="1">
             Destrave seus talentos do mundo <br />
@@ -55,21 +57,21 @@ export default function Landing() {
 
           <VStack align="flex-start" justify="center">
             <Input
-              w="32rem"
+              w={["100%", "32rem", "32rem"]}
               bg="gray.700"
               placeholder="Seu nome"
               color="white"
               p="6"
             />
             <Input
-              w="32rem"
+              w={["100%", "32rem", "32rem"]}
               bg="gray.700"
               placeholder="Seu melhor e-mail"
               color="white"
               p="6"
             />
             <Button
-              w="32rem"
+              w={["100%", "32rem", "32rem"]}
               p="6"
               bg="pink.600"
               color="white"
@@ -87,9 +89,9 @@ export default function Landing() {
         w="100vw"
         minH="100vh"
         bg="purple.900"
-        bgImage={["/images/2.png", ""]}
+        bgImage={["", "", "/images/2.png"]}
         direction="column"
-        align={["flex-end", "center"]}
+        align={["center", "center", "flex-end"]}
         justify="center"
         p="6"
       >
@@ -100,7 +102,7 @@ export default function Landing() {
           align="flex-start"
           justify="center"
           spacing="7"
-          pr={["44", "2"]}
+          pr={["2", "2", "44"]}
         >
           <Text fontWeight="bold" fontSize="1.7rem" color="white" lineHeight="1">
             Você é poderosa, SIM! E esse <br />
@@ -133,24 +135,30 @@ export default function Landing() {
         w="100vw"
         minH="100vh"
         bg="purple.900"
-        bgImage="/images/3.png"
+        bgImage={["", "/images/3.png", "/images/3.png"]}
         bgRepeat="no-repeat"
         direction="column"
-        justify={["flex-start", "center"]}
+        justify={["center", "center", "flex-start"]}
         align="center"
         p="6"
       >
-        <Text fontWeight="bold" fontSize="1.7rem" color="white" lineHeight="1" mt="10">
+        <Text
+          fontWeight="bold"
+          fontSize="1.7rem"
+          color="white"
+          mt="10"
+          textAlign={["center", "right", "right"]}
+        >
           O Que Você Aprenderá no Evento:
         </Text>
         <Stack
           w="auto"
           h="auto"
           align="center"
-          direction={["row", "column"]}
+          direction={["column", "column", "row"]}
           justify="space-between"
           flexWrap="wrap"
-          spacing={["28", "4"]}
+          spacing={["4", "4", "28"]}
           mt="12"
         >
           <CardClass
@@ -173,10 +181,10 @@ export default function Landing() {
           w="auto"
           h="auto"
           align="center"
-          direction={["row", "column"]}
+          direction={["column", "column", "row"]}
           justify="space-between"
           flexWrap="wrap"
-          spacing={["28", "4"]}
+          spacing={["4", "4", "28"]}
           mt="7"
         >
           <CardClass
@@ -202,7 +210,7 @@ export default function Landing() {
         w="100vw"
         minH="100vh"
         bg="purple.900"
-        bgImage={["/images/4.png", ""]}
+        bgImage={["", "", "/images/4.png"]}
         bgRepeat="no-repeat"
         bgPosition="bottom"
         direction="column"
@@ -212,11 +220,11 @@ export default function Landing() {
       >
         <Text
           fontWeight="bold"
-          fontSize={["1.5rem", "1.2rem"]}
+          fontSize={["1.2rem", "1.2rem", "1.5rem"]}
           color="white"
-          lineHeight={["1", "1.5"]}
+          lineHeight={["1.5", "1.5", "1.2"]}
           textAlign="center"
-          mt={["20", "5"]}
+          mt={["14", "14", "20"]}
         >
           Prazer... <strong> EU SOU (NOME),</strong> serei <strong> SUA MENTORA</strong> e te
           <br />
@@ -224,11 +232,11 @@ export default function Landing() {
         </Text>
         <HStack
           w="100%"
-          justify={["flex-end", "center"]}
-          pr={["24", "1"]}
+          justify={["center", "center", "flex-end"]}
+          pr={["1", "1", "24"]}
         >
           <Text
-            w={["50%", "90%"]}
+            w={["90%", "90%", "50%"]}
             fontWeight="400"
             fontSize="0.9rem"
             color="white"
@@ -266,7 +274,7 @@ export default function Landing() {
           </Text>
         </HStack>
         <Button
-          w="30rem"
+          w={["90%", "90%", "30rem"]}
           py="7"
           mt="12"
           mb="3"

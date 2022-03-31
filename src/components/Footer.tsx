@@ -7,7 +7,8 @@ export function Footer() {
       minH="20vh"
       bg="purple.900"
       textAlign="center"
-      px={["52", "4", "4"]}
+      px={["4", "4", "52"]}
+      py="10"
       align="center"
       justify="center"
       spacing="3"

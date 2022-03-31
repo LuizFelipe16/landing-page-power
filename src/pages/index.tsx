@@ -124,8 +124,6 @@ export default function Home() {
         p="6"
         align="center"
         justify="flex-start"
-      // borderWidth={1}
-      // borderColor="#000"
       >
         <Text fontWeight="bold" fontSize="1.7rem" color="white" lineHeight="1" mt="10">
           O Que Você Aprenderá no Evento:
@@ -194,10 +192,8 @@ export default function Home() {
         p="6"
         align="center"
         justify="flex-start"
-      // borderWidth={1}
-      // borderColor="#000"
       >
-        <Text fontWeight="bold" fontSize="1.5rem" color="white" lineHeight="1" mt="24" textAlign="center">
+        <Text fontWeight="bold" fontSize="1.5rem" color="white" lineHeight="1" mt="20" textAlign="center">
           Prazer... <strong> EU SOU KELLY KRIS,</strong> serei <strong> SUA MENTORA</strong> e te
           <br />
           transformarei num VERDADEIRO DIAMANTE!
@@ -244,9 +240,10 @@ export default function Home() {
           bg="pink.600"
           fontSize="sm"
           boxShadow="0 0 50px #E21F7E"
-          transition="0.2s"
+          transition="0.3s"
           _hover={{
-            bg: 'pink.600'
+            bg: 'purple.400',
+            boxShadow: '0 0 50px #704ce7'
           }}
         >
           QUERO ME INSCREVER AGORA

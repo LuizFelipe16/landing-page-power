@@ -194,12 +194,12 @@ export default function Home() {
         justify="flex-start"
       >
         <Text fontWeight="bold" fontSize="1.5rem" color="white" lineHeight="1" mt="20" textAlign="center">
-          Prazer... <strong> EU SOU KELLY KRIS,</strong> serei <strong> SUA MENTORA</strong> e te
+          Prazer... <strong> EU SOU (NOME),</strong> serei <strong> SUA MENTORA</strong> e te
           <br />
           transformarei num VERDADEIRO DIAMANTE!
         </Text>
-        <HStack w="100%" justify="flex-end" pr="44">
-          <Text w="50%" fontWeight="400" fontSize="0.9rem" color="white" mt="16">
+        <HStack w="100%" justify="flex-end" pr="24">
+          <Text w="50%" fontWeight="400" fontSize="0.9rem" color="white" mt="12">
             Oi, poderosa! Deixa eu te contar um pouco da minha trajetória e como eu posso te ajudar aqui no online.
             <br />
             <br />
@@ -222,7 +222,7 @@ export default function Home() {
             <br />
             <br />
             Isso é tão poderoso, mas tão poderoso... que eu criei métodos que unem técnicas do
-            Marketing de Influ~encia, Conteúdo e Pessoal, para VOCÊ que deseja PRESENÇA,
+            Marketing de Influência, Conteúdo e Pessoal, para VOCÊ que deseja PRESENÇA,
             POSICIONAMENTO, RELEVÂNCIA, AUTORIDADE e ENGAJAMENTO no mar de estrelas do digital.
             <br />
             <br />

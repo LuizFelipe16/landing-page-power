@@ -11,7 +11,7 @@ export function Footer() {
       align="center"
       justify="center"
     >
-      <Text fontWeight="400" fontSize="0.9rem" color="white">Kelly Kris 2022 Todos direitos reservados</Text>
+      <Text fontWeight="400" fontSize="0.9rem" color="white">(NOME) 2022 Todos direitos reservados</Text>
 
       <Text fontWeight="300" fontSize="0.8rem" color="white">
         Atenção Nós não compartilhamos seu contato com terceiros.

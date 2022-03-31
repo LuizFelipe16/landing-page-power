@@ -1,7 +1,7 @@
 import Head from "next/head";
-import { Flex, Icon, HStack, Text, VStack, Input, Button, Box } from "@chakra-ui/react";
+import { Flex, Icon, HStack, Text, VStack, Input, Button, Box, Stack } from "@chakra-ui/react";
 import { BiCalendar, BiCheckCircle } from 'react-icons/bi';
-import AOS from 'aos';
+
 import { CardClass } from "../components/CardClass";
 import { Footer } from "../components/Footer";
 
@@ -12,14 +12,15 @@ export default function Landing() {
         <title>Landing Page</title>
       </Head>
       <Flex
-        // bg="purple.900"
         w="100vw"
-        h="100vh"
-        bgImage="/images/1.png"
+        minH="100vh"
+        bg="purple.900"
+        bgImage={["/images/1.png", ""]}
+        bgRepeat="no-repeat"
         direction="column"
-        p="6"
-        align="flex-start"
+        align={["flex-start", "center"]}
         justify="center"
+        p="6"
       >
         <VStack
           data-aos="zoom-in-right"
@@ -27,7 +28,7 @@ export default function Landing() {
           align="flex-start"
           justify="center"
           spacing="5"
-          pl="14"
+          pl={["14", "1"]}
         >
           <Text fontWeight="bold" fontSize="1.7rem" color="white" lineHeight="1">
             Destrave seus talentos do mundo <br />
@@ -83,16 +84,14 @@ export default function Landing() {
         </VStack>
       </Flex>
       <Flex
-        bg="purple.900"
         w="100vw"
-        h="100vh"
-        bgImage="/images/2.png"
+        minH="100vh"
+        bg="purple.900"
+        bgImage={["/images/2.png", ""]}
         direction="column"
-        p="6"
-        align="flex-end"
+        align={["flex-end", "center"]}
         justify="center"
-      // borderWidth={1}
-      // borderColor="#000"
+        p="6"
       >
         <VStack
           data-aos="zoom-in-left"
@@ -101,7 +100,7 @@ export default function Landing() {
           align="flex-start"
           justify="center"
           spacing="7"
-          pr="44"
+          pr={["44", "2"]}
         >
           <Text fontWeight="bold" fontSize="1.7rem" color="white" lineHeight="1">
             Você é poderosa, SIM! E esse <br />
@@ -131,27 +130,28 @@ export default function Landing() {
         </VStack>
       </Flex>
       <Flex
-        bg="purple.900"
         w="100vw"
         minH="100vh"
+        bg="purple.900"
         bgImage="/images/3.png"
         bgRepeat="no-repeat"
         direction="column"
-        p="6"
+        justify={["flex-start", "center"]}
         align="center"
-        justify="flex-start"
+        p="6"
       >
         <Text fontWeight="bold" fontSize="1.7rem" color="white" lineHeight="1" mt="10">
           O Que Você Aprenderá no Evento:
         </Text>
-        <HStack
+        <Stack
           w="auto"
           h="auto"
           align="center"
+          direction={["row", "column"]}
           justify="space-between"
           flexWrap="wrap"
-          spacing="28"
-          mt="7"
+          spacing={["28", "4"]}
+          mt="12"
         >
           <CardClass
             date="08 de fevereiro às 20h"
@@ -168,14 +168,15 @@ export default function Landing() {
             border="purple.400"
             banner="2"
           />
-        </HStack>
-        <HStack
+        </Stack>
+        <Stack
           w="auto"
           h="auto"
           align="center"
+          direction={["row", "column"]}
           justify="space-between"
           flexWrap="wrap"
-          spacing="28"
+          spacing={["28", "4"]}
           mt="7"
         >
           <CardClass
@@ -195,27 +196,44 @@ export default function Landing() {
             border="pink.600"
             banner="4"
           />
-        </HStack>
+        </Stack>
       </Flex>
       <Flex
-        bg="purple.900"
         w="100vw"
         minH="100vh"
-        direction="column"
-        bgImage="/images/4.png"
+        bg="purple.900"
+        bgImage={["/images/4.png", ""]}
         bgRepeat="no-repeat"
         bgPosition="bottom"
-        p="6"
+        direction="column"
         align="center"
         justify="flex-start"
+        p="6"
       >
-        <Text fontWeight="bold" fontSize="1.5rem" color="white" lineHeight="1" mt="20" textAlign="center">
+        <Text
+          fontWeight="bold"
+          fontSize={["1.5rem", "1.2rem"]}
+          color="white"
+          lineHeight={["1", "1.5"]}
+          textAlign="center"
+          mt={["20", "5"]}
+        >
           Prazer... <strong> EU SOU (NOME),</strong> serei <strong> SUA MENTORA</strong> e te
           <br />
           transformarei num VERDADEIRO DIAMANTE!
         </Text>
-        <HStack w="100%" justify="flex-end" pr="24">
-          <Text w="50%" fontWeight="400" fontSize="0.9rem" color="white" mt="12">
+        <HStack
+          w="100%"
+          justify={["flex-end", "center"]}
+          pr={["24", "1"]}
+        >
+          <Text
+            w={["50%", "90%"]}
+            fontWeight="400"
+            fontSize="0.9rem"
+            color="white"
+            mt="12"
+          >
             Oi, poderosa! Deixa eu te contar um pouco da minha trajetória e como eu posso te ajudar aqui no online.
             <br />
             <br />

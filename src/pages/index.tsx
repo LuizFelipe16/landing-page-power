@@ -97,7 +97,7 @@ export default function Home() {
             <br />
             Em cada segundo que você acredita nessa vilã, porque te disseram <br />
             que você não pode te criticarem dizendo que o Instagram não é <br />
-            seu lugar ou deram apelidinhos como "blogueirinha", você... isso <br />
+            seu lugar ou deram apelidinhos como `&quot;`blogueirinha`&quot;`, você... isso <br />
             mesmo... VOCÊ perde seus poderes pessoais.
             <br />
             <br />

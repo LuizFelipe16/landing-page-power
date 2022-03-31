@@ -23,8 +23,8 @@ export default function Landing() {
         p="6"
       >
         <VStack
-          // data-aos="zoom-in-right"
-          // data-aos-duration="1000"
+          data-aos="zoom-in-right"
+          data-aos-duration="1000"
           align={["flex-start", "flex-start", "flex-start"]}
           justify="center"
           spacing="5"

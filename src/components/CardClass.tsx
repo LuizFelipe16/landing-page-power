@@ -11,7 +11,14 @@ interface ICardClass {
 
 export function CardClass({ date, title, text, border, banner }: ICardClass) {
   return (
-    <VStack w="19rem" h="25rem" spacing="3" justify="flex-start">
+    <VStack
+      w="19rem"
+      h="25rem"
+      spacing="3"
+      justify="flex-start"
+      data-aos="fade-down"
+      data-aos-duration="1000"
+    >
       <Box
         w="18rem"
         h="11rem"

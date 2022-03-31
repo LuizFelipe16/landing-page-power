@@ -1,13 +1,16 @@
 import Head from "next/head";
 import { Flex, Icon, HStack, Text, VStack, Input, Button, Box } from "@chakra-ui/react";
 import { BiCalendar, BiCheckCircle } from 'react-icons/bi';
+import AOS from 'aos';
 import { CardClass } from "../components/CardClass";
 import { Footer } from "../components/Footer";
 
-export default function Home() {
+export default function Landing() {
   return (
     <>
-      <Head><title>Landing Page</title></Head>
+      <Head>
+        <title>Landing Page</title>
+      </Head>
       <Flex
         // bg="purple.900"
         w="100vw"
@@ -17,10 +20,15 @@ export default function Home() {
         p="6"
         align="flex-start"
         justify="center"
-      // borderWidth={1}
-      // borderColor="#000"
       >
-        <VStack align="flex-start" justify="center" spacing="5" pl="14">
+        <VStack
+          data-aos="zoom-in-right"
+          data-aos-duration="1000"
+          align="flex-start"
+          justify="center"
+          spacing="5"
+          pl="14"
+        >
           <Text fontWeight="bold" fontSize="1.7rem" color="white" lineHeight="1">
             Destrave seus talentos do mundo <br />
             real no online, derrote a impostora <br />
@@ -86,7 +94,15 @@ export default function Home() {
       // borderWidth={1}
       // borderColor="#000"
       >
-        <VStack w="auto" align="flex-start" justify="center" spacing="7" pr="44">
+        <VStack
+          data-aos="zoom-in-left"
+          data-aos-duration="1000"
+          w="auto"
+          align="flex-start"
+          justify="center"
+          spacing="7"
+          pr="44"
+        >
           <Text fontWeight="bold" fontSize="1.7rem" color="white" lineHeight="1">
             Você é poderosa, SIM! E esse <br />
             evento vai te provar.

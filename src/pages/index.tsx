@@ -15,7 +15,7 @@ export default function Landing() {
         w="100vw"
         minH="100vh"
         bg="purple.900"
-        bgImage={["", "", "/images/1.png"]}
+        bgImage={["/images/mobile/1.png", "/images/mobile/1.png", "/images/1.png"]}
         bgRepeat="no-repeat"
         direction="column"
         align={["center", "center", "flex-start"]}
@@ -89,7 +89,8 @@ export default function Landing() {
         w="100vw"
         minH="100vh"
         bg="purple.900"
-        bgImage={["", "", "/images/2.png"]}
+        bgImage={["/images/mobile/2.png", "/images/mobile/2.png", "/images/2.png"]}
+        bgRepeat="no-repeat"
         direction="column"
         align={["center", "center", "flex-end"]}
         justify="center"
@@ -135,7 +136,7 @@ export default function Landing() {
         w="100vw"
         minH="100vh"
         bg="purple.900"
-        bgImage={["", "/images/3.png", "/images/3.png"]}
+        bgImage={["/images/mobile/3.png", "/images/mobile/3.png", "/images/3.png"]}
         bgRepeat="no-repeat"
         direction="column"
         justify={["center", "center", "flex-start"]}
@@ -210,7 +211,7 @@ export default function Landing() {
         w="100vw"
         minH="100vh"
         bg="purple.900"
-        bgImage={["", "", "/images/4.png"]}
+        bgImage={["/images/mobile/4.png", "/images/mobile/4.png", "/images/4.png"]}
         bgRepeat="no-repeat"
         bgPosition="bottom"
         direction="column"
@@ -223,7 +224,7 @@ export default function Landing() {
           fontSize={["1.2rem", "1.2rem", "1.5rem"]}
           color="white"
           lineHeight={["1.5", "1.5", "1.2"]}
-          textAlign="center"
+          textAlign={["left", "center", "center"]}
           mt={["14", "14", "20"]}
         >
           Prazer... <strong> EU SOU (NOME),</strong> serei <strong> SUA MENTORA</strong> e te

@@ -12,13 +12,13 @@ export default function Home() {
         // bg="purple.900"
         w="100vw"
         h="100vh"
-        bgImage="/images/background.png"
+        bgImage="/images/1.png"
         direction="column"
         p="6"
         align="flex-start"
         justify="center"
-        borderWidth={1}
-        borderColor="#000"
+      // borderWidth={1}
+      // borderColor="#000"
       >
         <VStack align="flex-start" justify="center" spacing="5" pl="14">
           <Text fontWeight="bold" fontSize="1.7rem" color="white" lineHeight="1">
@@ -78,6 +78,7 @@ export default function Home() {
         bg="purple.900"
         w="100vw"
         h="100vh"
+        bgImage="/images/2.png"
         direction="column"
         p="6"
         align="flex-end"
@@ -117,6 +118,8 @@ export default function Home() {
         bg="purple.900"
         w="100vw"
         minH="100vh"
+        bgImage="/images/3.png"
+        bgRepeat="no-repeat"
         direction="column"
         p="6"
         align="center"
@@ -141,6 +144,7 @@ export default function Home() {
             title="A Descoberta das Vilãs do Mundo Digital"
             text="que te enfraquecem e bloqueiam seus poderes de ação"
             border="pink.600"
+            banner="1"
           />
           <CardClass
             date="09 de fevereiro às 20h"
@@ -148,6 +152,7 @@ export default function Home() {
             text="e te revelará seus poderes e talentos únicos e que precisam ser conhecidos 
             no Mundo online."
             border="purple.400"
+            banner="2"
           />
         </HStack>
         <HStack
@@ -165,6 +170,7 @@ export default function Home() {
             text="que aumentarão seus super poderes e de darão força e coragem 
             para agir de maneira eficaz e assertiva."
             border="purple.400"
+            banner="3"
           />
           <CardClass
             date="11 de fevereiro às 20h"
@@ -173,6 +179,7 @@ export default function Home() {
             destravará seus poderes de forma permanente portencializará seus talentos no online e 
             escalará suas conquistas tanto na vidade real como no digital."
             border="pink.600"
+            banner="4"
           />
         </HStack>
       </Flex>
@@ -181,6 +188,9 @@ export default function Home() {
         w="100vw"
         minH="100vh"
         direction="column"
+        bgImage="/images/4.png"
+        bgRepeat="no-repeat"
+        bgPosition="bottom"
         p="6"
         align="center"
         justify="flex-start"
@@ -229,7 +239,7 @@ export default function Home() {
           w="30rem"
           py="7"
           mt="12"
-          mb="12"
+          mb="3"
           color="white"
           bg="pink.600"
           fontSize="sm"

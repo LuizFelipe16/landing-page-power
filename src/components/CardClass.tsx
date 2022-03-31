@@ -1,4 +1,4 @@
-import { Box, HStack, Icon, Text, VStack } from "@chakra-ui/react";
+import { Box, HStack, Icon, Img, Text, VStack } from "@chakra-ui/react";
 import { BiCalendar } from 'react-icons/bi';
 
 interface ICardClass {
@@ -6,9 +6,10 @@ interface ICardClass {
   title: string;
   text: string;
   border: string;
+  banner: string;
 }
 
-export function CardClass({ date, title, text, border }: ICardClass) {
+export function CardClass({ date, title, text, border, banner }: ICardClass) {
   return (
     <VStack w="19rem" h="25rem" spacing="3" justify="flex-start">
       <Box
@@ -17,7 +18,15 @@ export function CardClass({ date, title, text, border }: ICardClass) {
         borderWidth={2}
         borderRadius="lg"
         borderColor={border}
-      />
+      >
+        <Img
+          w="100%"
+          h="100%"
+          borderRadius="md"
+          objectFit="cover"
+          src={`/images/classes/${banner}.png`}
+        />
+      </Box>
       <HStack>
         <Icon as={BiCalendar} color="pink.600" />
         <Text fontWeight="400" color="white" fontSize="sm">{date}</Text>
